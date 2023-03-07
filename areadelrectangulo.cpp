@@ -15,4 +15,5 @@ int main()
 	cout << "ingrese la base y la altura " << endl;
 	cin >> base; cin >> altura;
 	return 0;
+
 }
