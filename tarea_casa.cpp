@@ -18,7 +18,7 @@ int main()
         cout<<"\n"<<"el valor del numero["<<i<<"] es : "<< numeros[i] << endl;
     }
 
-    //Mostrar el numero mayor.
+    //Mostrar el numero mayor..
 
     //Declaramos una variable entero con nombre mayor, que inicia en la posicion 0.
     int mayor = numeros[0];
