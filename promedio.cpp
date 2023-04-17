@@ -1,3 +1,6 @@
+//    05/03/2023
+//HACER UN PROGRAMA QUE CALCULE EL PROMEDIO
+
 #include<iostream>
 using namespace std; // nos permite usar el cin y cout.
 float calcular_prom(float not1, float not2, float not3)

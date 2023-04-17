@@ -1,3 +1,6 @@
+//09/03/2023
+//HACER UN ARREGLO DE 5 ELEMENTOS Y MOSTRAMOS POR PANTALLA EL PRODUCTO Y SU POSICIOC
+
 #include <iostream>
 using namespace std;
 int main()
