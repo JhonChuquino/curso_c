@@ -1,3 +1,6 @@
+//  05/03/2023
+//HACER UN PROGRAMA QUE QUE TE MUESTRE EL MES DEL AÑO SEGUN EL NUMERO QUE INGRESE EL USUARIO
+
 #include<iostream>
 using namespace std; // nos permite usar el cin y cout.
 int main()
