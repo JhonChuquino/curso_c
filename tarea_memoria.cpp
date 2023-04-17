@@ -1,3 +1,7 @@
+//03/09/2023
+//HACER UN PROGRAMA QUE NOS DIGA SI UN NUMERO ES PAR O IMPAR Y NOS MUESTRE POR PANTALLA LA DIRECCION DE MEMORIA
+    
+
 #include <iostream>
 using namespace std;
 int main()
