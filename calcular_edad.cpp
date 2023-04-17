@@ -1,3 +1,6 @@
+//  05/03/2023    
+//HACER UN PROGRAMA QUE CALCULE TU EDAD SEGUN TU FECHA DE NACIMIENTO Y TE DIGA SI ERES MAYOR DE EDAD O NO
+
 #include<iostream>
 using namespace std; // nos permite usar el cin y cout.
 int calcular_edad(int anio_nacimiento)//llamamos a esta funcion para que se ejecuta dentro de esta funcion
