@@ -1,0 +1,28 @@
+Datos , Cursos y notas 
+001  Facultad de Ingenieria en Informatica y Sistemas FIIS
+
+Codigo de estudiante: 2023000001 nombres:  juanito apellidos: perez dni: 44444444
+
+Curso: Programacion Basica --> Credito:  4 
+ ------> nota 1 = 11.000000 ---> nota 2 = 9.000000 ----->nota 3 = 17.000000
+Curso: Diseño de BD --> Credito:  3 
+ ------> nota 1 = 13.000000 ---> nota 2 = 18.000000 ----->nota 3 = 20.000000
+Curso: Sotfware I --> Credito:  3 
+ ------> nota 1 = 17.000000 ---> nota 2 = 12.000000 ----->nota 3 = 19.000000
+Curso: Sotfware II --> Credito:  4 
+ ------> nota 1 = 14.000000 ---> nota 2 = 17.000000 ----->nota 3 = 11.000000
+Curso: Gestion de procesos --> Credito:  4 
+ ------> nota 1 = 19.000000 ---> nota 2 = 20.000000 ----->nota 3 = 16.000000
+
+Codigo de estudiante: 20220456 nombres:  caldas apellidos:  jose dni: 234567
+
+Curso: Programacion Basica --> Credito:  4 
+ ------> nota 1 = 11.000000 ---> nota 2 = 9.000000 ----->nota 3 = 17.000000
+Curso: Diseño de BD --> Credito:  3 
+ ------> nota 1 = 13.000000 ---> nota 2 = 18.000000 ----->nota 3 = 20.000000
+Curso: Sotfware I --> Credito:  3 
+ ------> nota 1 = 17.000000 ---> nota 2 = 12.000000 ----->nota 3 = 19.000000
+Curso: Sotfware II --> Credito:  4 
+ ------> nota 1 = 14.000000 ---> nota 2 = 17.000000 ----->nota 3 = 11.000000
+Curso: Gestion de procesos --> Credito:  4 
+ ------> nota 1 = 19.000000 ---> nota 2 = 20.000000 ----->nota 3 = 16.000000
