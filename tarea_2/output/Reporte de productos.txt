@@ -1,0 +1,58 @@
+REPORTE DE PRODUCTOS DE VENTA
+AUTOMOVILES 
+1 >> Color : Rojo ---> Marca: Toyota ----> Cilindrada de motor: 1500 ---> Número de asientos: 5
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+2 >> Color : Honda ---> Marca: Azul ----> Cilindrada de motor: 2000 ---> Número de asientos: 4
+Número de ruedas: 4 ---> Número de puertas: 2 ---> Certificación de seguridad: Sí
+
+
+3 >> Color : Ford ---> Marca: Negro ----> Cilindrada de motor: 1800 ---> Número de asientos: 5
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+4 >> Color : Chevrolet ---> Marca: Blanco ----> Cilindrada de motor: 2500 ---> Número de asientos: 6
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+5 >> Color : Nissan ---> Marca: Gris ----> Cilindrada de motor: 1900 ---> Número de asientos: 5
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+6 >> Color : Mercedes-Benz ---> Marca: Plata ----> Cilindrada de motor: 3000 ---> Número de asientos: 7
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+7 >> Color : Ford ---> Marca: Negro ----> Cilindrada de motor: 1800 ---> Número de asientos: 5
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+8 >> Color : Chevrolet ---> Marca: Blanco ----> Cilindrada de motor: 2500 ---> Número de asientos: 6
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+9 >> Color : Nissan ---> Marca: Gris ----> Cilindrada de motor: 1900 ---> Número de asientos: 5
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+10 >> Color : Mercedes-Benz ---> Marca: Plata ----> Cilindrada de motor: 3000 ---> Número de asientos: 7
+Número de ruedas: 4 ---> Número de puertas: 4 ---> Certificación de seguridad: Sí
+
+
+MOTOCICLETAS 
+1 >> Color: Rojo ---> Marca: Honda ---> Cilindrada de motor: 250 -->> Número de asientos: 2
+Número de ruedas: 2 -->> Número de puertas: 0 -->> Certificación de seguridad: Sí
+
+2 >> Color: Negro ---> Marca: Kawasaki ---> Cilindrada de motor: 650 -->> Número de asientos: 2
+Número de ruedas: 2 -->> Número de puertas: 0 -->> Certificación de seguridad: Sí
+
+3 >> Color: Verde ---> Marca: Suzuki ---> Cilindrada de motor: 750 -->> Número de asientos: 2
+Número de ruedas: 2 -->> Número de puertas: 0 -->> Certificación de seguridad: Sí
+
+4 >> Color: Blanco ---> Marca: Harley Davidson ---> Cilindrada de motor: 500 -->> Número de asientos: 2
+Número de ruedas: 2 -->> Número de puertas: 0 -->> Certificación de seguridad: Sí
+
+5 >> Color: Azul ---> Marca: Yamaha ---> Cilindrada de motor: 150 -->> Número de asientos: 2
+Número de ruedas: 2 -->> Número de puertas: 0 -->> Certificación de seguridad: Sí
+
