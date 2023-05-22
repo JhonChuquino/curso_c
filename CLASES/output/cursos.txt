@@ -1,0 +1,11 @@
+Datos de cursos 
+Curso: Programacion Basica --> Credito:  4 --> Promedio: 0.000000
+Curso: Diseño de BD --> Credito:  3 --> Promedio: 0.000000
+Curso: Sotfware I --> Credito:  3 --> Promedio: 0.000000
+Curso: Sotfware II --> Credito:  4 --> Promedio: 0.000000
+Curso: Gestion de procesos --> Credito:  4 --> Promedio: 0.000000
+Curso: Nutricion animal --> Credito:  4 --> Promedio: 0.000000
+Curso: Ecosistemas menores --> Credito:  3 --> Promedio: 0.000000
+Curso: Microbiologia animal --> Credito:  3 --> Promedio: 0.000000
+Curso: Zoologia aplicada --> Credito:  4 --> Promedio: 0.000000
+Curso: Morfologia animal --> Credito:  4 --> Promedio: 0.000000

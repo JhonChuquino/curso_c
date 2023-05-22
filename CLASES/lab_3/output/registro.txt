@@ -1,0 +1,17 @@
+nombre : stiven	apellido : garcia	dni : 72494158	correo : stiven.garcia@gmail.com	telefono : 976018810Codigo: 0484758 -->> Titulo: La Llorona -->> Categoria:  Terror  -->> Autor:Lalangi Acharte
+Codigo: 954734738 -->> Titulo: La Leyenda de Acharte -->> Categoria:  comedia  -->> Autor:
+Codigo: 46283858 -->> Titulo: Los 3 Mosqueteros -->> Categoria:  Accion -->> Autor:Ls hermanos Grimm
+Codigo: 48729437 -->> Titulo: Padre rico, Padre joven -->> Categoria:  Psicologia  -->> Autor: Anonimo
+Codigo: 3734849 -->> Titulo: 48 leyes del Poder -->> Categoria:  Automotivacion  -->> Autor: Robert Greene 
+nombre : toledo	apellido : castillo	dni : 72654658	correo : toledo.castillo@gmail.com	telefono : 964964585Codigo: 0484758 -->> Titulo: La Llorona -->> Categoria:  Terror  -->> Autor:Lalangi Acharte
+Codigo: 954734738 -->> Titulo: La Leyenda de Acharte -->> Categoria:  comedia  -->> Autor:
+Codigo: 46283858 -->> Titulo: Los 3 Mosqueteros -->> Categoria:  Accion -->> Autor:Ls hermanos Grimm
+Codigo: 48729437 -->> Titulo: Padre rico, Padre joven -->> Categoria:  Psicologia  -->> Autor: Anonimo
+Codigo: 3734849 -->> Titulo: 48 leyes del Poder -->> Categoria:  Automotivacion  -->> Autor: Robert Greene 
+biblioteca
+nombre : huanito
+Codigo: 3734849 -->> Titulo: 48 leyes del Poder -->> Categoria:  Automotivacion  -->> Autor: Robert Greene 
+
+
+
+
