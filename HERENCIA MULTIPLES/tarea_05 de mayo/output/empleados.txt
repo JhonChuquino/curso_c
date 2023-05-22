@@ -1,0 +1,22 @@
+Datos de los empleados 
+SYSTEMATEC CORPORATION(SYC)
+|| Nombre: Jorge,  || Apellidos: Martin, || Dni: 12345, || Fecha de nacimiento: 30/05/2000 , || Edad: 24 
+|| Puesto de trabajo: Gerente, || Sueldo : $2345, || Antiguedad 6 años
+|| Nombre: Maria,  || Apellidos: Gonzalez, || Dni: 87654321, || Fecha de nacimiento: 02/02/1995 , || Edad: 27 
+|| Puesto de trabajo: Asistente, || Sueldo : $2000, || Antiguedad 2 años
+|| Nombre: Carlos,  || Apellidos: Lopez, || Dni: 45678901, || Fecha de nacimiento: 03/03/2000 , || Edad: 22 
+|| Puesto de trabajo: Analista, || Sueldo : $3000, || Antiguedad 1 año
+|| Nombre: Laura,  || Apellidos: Rodriguez, || Dni: 10987654, || Fecha de nacimiento: 04/04/1985 , || Edad: 37 
+|| Puesto de trabajo: Director, || Sueldo : $8000, || Antiguedad 8 años
+|| Nombre: Pedro,  || Apellidos: Gomez, || Dni: 21098765, || Fecha de nacimiento: 05/05/1993 , || Edad: 29 
+|| Puesto de trabajo: Consultor, || Sueldo : $4000, || Antiguedad 3 años
+|| Nombre: Juan,  || Apellidos: Perez, || Dni: 12345678, || Fecha de nacimiento: 01/01/1990 , || Edad: 32 
+|| Puesto de trabajo: Gerente, || Sueldo : $5000, || Antiguedad 5 años
+|| Nombre: Jhon,  || Apellidos: Oriuela, || Dni: 12345678, || Fecha de nacimiento: 01/01/1992 , || Edad: 45 
+|| Puesto de trabajo: Gerente, || Sueldo : $5000, || Antiguedad 5 años
+|| Nombre: Jose,  || Apellidos: Palacios, || Dni: 12345678A, || Fecha de nacimiento: 01/01/1999 , || Edad: 21 
+|| Puesto de trabajo: Programador, || Sueldo : $2000, || Antiguedad 2 años
+|| Nombre: Rosa,  || Apellidos: Chavez, || Dni: 3485960, || Fecha de nacimiento: 3/03/1990 , || Edad: 33 
+|| Puesto de trabajo: secretaria, || Sueldo : $2000, || Antiguedad  6 meses
+|| Nombre: Roy,  || Apellidos: Chacon, || Dni: 1297660, || Fecha de nacimiento: 3/06/1997 , || Edad: 33 
+|| Puesto de trabajo: seguridad, || Sueldo : $2000, || Antiguedad  9 meses
