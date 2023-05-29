@@ -1,0 +1,61 @@
+Stock de productos por fecha de registro:
+Nombre: Llanta
+Código: LL001
+Precio: $100
+Cantidad disponible: 5
+Fecha de registro: 12/08/2023
+Categoría: N/A
+----------------------------------
+Nombre: Aceite de motor
+Código: AM002
+Precio: $50
+Cantidad disponible: 10
+Fecha de registro: 3/09/2023
+Categoría: N/A
+----------------------------------
+Nombre: Filtro de aire
+Código: FA003
+Precio: $20
+Cantidad disponible: 8
+Fecha de registro: 22/08/2023
+Categoría: N/A
+----------------------------------
+Repuestos no vendidos:
+No hay repuestos no vendidos.
+Servicios asignados a Juan González:
+Nombre: Cambio de aceite
+Descripción: Realizar el cambio de aceite del motor
+Tiempo estimado: 1 horas
+fecha en el que se realizo el servicio: 03/2/2023
+----------------------------------
+Nombre: Reparación de frenos
+Descripción: Reparar o reemplazar los componentes del sistema de frenos
+Tiempo estimado: 2 horas
+fecha en el que se realizo el servicio: 04/05/2023
+----------------------------------
+Tiempo total para Juan González: 3 horas
+
+Servicios asignados a Marco López:
+Nombre: Mantenimiento de suspensión
+Descripción: Realizar el mantenimiento y ajuste de la suspensión
+Tiempo estimado: 3 horas
+fecha en el que se realizo el servicio: 24/01/2023
+----------------------------------
+Tiempo total para Marco López: 3 horas
+Servicios realizados para Carlos González:
+fecha del servicio: 12/03/2023
+Cambio de aceite
+Reparación de frenos
+
+Servicios realizados para Marta López:
+fecha del servicio: 11/01/2023
+Mantenimiento de suspensión
+Cambio de batería
+Alineación y balanceo
+
+Servicios realizados para Jose Rodríguez:
+fecha del servicio: 30/04/2023
+Reparación de motor
+Clientes más frecuentes:
+Cliente: Carlos, cuantas veces viene al año: 1
+Cliente: Marta, cuantas veces viene al año: 2
