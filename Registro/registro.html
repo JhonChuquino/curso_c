@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<style>
+      body{
+        background-image: url("https://cdn.pixabay.com/photo/2018/03/22/02/37/email-3249062_1280.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: Arial,sans-serif;
+    }
+  .container {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .input-container {
+    margin: 10px 0;
+  }
+
+  input {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .narrow-input {
+    width: 97%;
+    padding: 10px;
+  }
+
+  .green-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .blue-btn {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .red-btn {
+    background-color: #f44336;
+    color: white;
+  }
+
+  select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f8f7f7; 
+    border: 1px solid #faf8f8;
+    border-radius: 5px;
+  }
+
+  .excel-box {
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    max-height: 300px;
+    overflow: auto;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
+<body style="background-color: #f2f2f2; font-family: Arial, sans-serif;">
+
+<h2 style="color: #2f4f4f; text-align: center;">Formulario de Registro</h2>
+
+<div class="container">
+  <div class="input-container">
+    <label for="nombre" style="color: #2f4f4f;">Nombre:</label><br>
+    <input type="text" id="nombre" name="nombre" class="narrow-input"><br>
+  </div>
+
+  <div class="input-container">
+    <label for="apellido" style="color: #2f4f4f;">Apellido:</label><br>
+    <input type="text" id="apellido" name="apellido" class="narrow-input"><br>
+  </div>
+
+  <div class="input-container">
+    <label for="dni" style="color: #2f4f4f;">DNI:</label><br>
+    <input type="text" id="dni" name="dni" class="narrow-input"><br>
+  </div>
+
+  <button onclick="guardar()" class="green-btn" style="padding: 12px 28px;">Guardar</button>
+  <button onclick="cargar()" class="blue-btn" style="padding: 12px 28px;">Cargar</button>
+  <button onclick="borrar()" class="red-btn" style="padding: 12px 28px;">Borrar</button>
+
+  <h2 style="color: #2f4f4f;">Usuarios Registrados</h2>
+
+  <select id="usuarios"></select>
+
+  <h2 style="color: #2f4f4f;">Registro de datos guardados</h2>
+
+  <!-- Tabla para mostrar los registros -->
+  <div class="excel-box">
+    <table>
+      <thead>
+        <tr>
+          <th>Nombre</th>
+          <th>Apellido</th>
+          <th>DNI</th>
+        </tr>
+      </thead>
+      <tbody id="registro"></tbody>
+    </table>
+  </div>
+</div>
+
+<script>
+var usuarios = [];
+
+if(localStorage.getItem('usuarios')) {
+  usuarios = JSON.parse(localStorage.getItem('usuarios'));
+  actualizarSelect();
+  actualizarRegistro();
+}
+
+function guardar() {
+  var nombre = document.getElementById('nombre').value;
+  var apellido = document.getElementById('apellido').value;
+  var dni = document.getElementById('dni').value;
+
+  if (nombre && apellido && dni) {
+    if (!/^\d+$/.test(dni)) {
+      alert("El DNI debe ser un valor numérico.");
+      return;
+    }
+
+    usuarios.push({nombre, apellido, dni});
+
+    localStorage.setItem('usuarios', JSON.stringify(usuarios));
+
+    actualizarSelect();
+    actualizarRegistro();
+
+    alert("Registro guardado exitosamente.");
+    limpiarCampos();
+  } else {
+    alert("Por favor, complete todos los campos.");
+  }
+}
+
+function cargar() {
+  var select = document.getElementById('usuarios');
+  var usuario = usuarios[select.selectedIndex];
+
+  document.getElementById('nombre').value = usuario.nombre;
+  document.getElementById('apellido').value = usuario.apellido;
+  document.getElementById('dni').value = usuario.dni;
+}
+
+function borrar() {
+  var select = document.getElementById('usuarios');
+  usuarios.splice(select.selectedIndex, 1);
+
+  localStorage.setItem('usuarios', JSON.stringify(usuarios));
+
+  actualizarSelect();
+  actualizarRegistro();
+}
+
+function actualizarSelect() {
+  var select = document.getElementById('usuarios');
+  select.innerHTML = '';
+
+  for (var i = 0; i < usuarios.length; i++){
+    var usuario = usuarios[i];
+
+    var option = document.createElement('option');
+    option.text = usuario.nombre + ' ' + usuario.apellido + ' (' + usuario.dni + ')';
+
+    select.add(option);
+  }
+}
+
+function actualizarRegistro() {
+  var registroDiv = document.getElementById('registro');
+  registroDiv.innerHTML = '';
+
+  for (var i = 0; i < usuarios.length; i++){
+    var usuario = usuarios[i];
+
+    registroDiv.innerHTML += `
+      <tr>
+        <td>${usuario.nombre}</td>
+        <td>${usuario.apellido}</td>
+        <td>${usuario.dni}</td>
+      </tr>`;
+  }
+}
+</script>
+
+</body>
+</html>
