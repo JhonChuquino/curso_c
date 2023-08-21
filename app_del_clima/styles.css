@@ -1,0 +1,164 @@
+/* Establece la imagen de fondo y los estilos generales del cuerpo */
+body {
+    background-image: url('https://www.xtrafondos.com/descargar.php?id=7834&resolucion=2560x1440');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0; /* Elimina el margen alrededor del cuerpo */
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Define los estilos para el contenedor principal */
+.container {
+    text-align: center;
+    padding: 50px;
+}
+
+/* Estilos para el contenedor de entrada y botones */
+.input-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Establece una cuadrícula para mostrar información del clima */
+.weather-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* Estilos para los elementos que muestran información del clima actual y pronóstico */
+.weather-item,
+.forecast-item {
+    border: 4px solid #111111;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #edf1f1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 150px;
+    margin-bottom: 20px;
+}
+
+/* Establece los estilos de las imágenes dentro de los elementos de información */
+.weather-item img,
+.forecast-item img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+}
+
+/* Crea una cuadrícula para mostrar el pronóstico */
+.forecast-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Define los estilos para el título principal */
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fcfcfc;
+    margin-bottom: 20px;
+    font-family: "Nunito", sans-serif;
+}
+
+/* Define los estilos para el área de botones */
+.buttons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Estilos para los botones */
+.buttons button {
+    background-color: #fff;
+    color: #f54646;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s, color 0.3s, transform 0.2s;
+}
+
+/* Cambia los estilos de los botones en el hover */
+.buttons button:hover {
+    background-color: #f54646;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+/* Define los estilos para el área de entrada y botones de clima */
+.input-container {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Estilos para los botones de ver clima actual y pronóstico */
+#getWeatherBtn,
+#getForecastBtn {
+    margin: 0 5px;
+}
+
+/* Define los estilos para el botón de pronóstico */
+#getForecastBtn {
+    left: 50%;
+}
+
+/* Define los estilos para los días de pronóstico */
+.forecast-day {
+    border: 4px solid #0a0a0a;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #f4f8f8;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Define los estilos para los títulos de los días de pronóstico */
+.forecast-day h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Define los estilos para los elementos de pronóstico */
+.forecast-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+/* Define los estilos para las tarjetas de pronóstico */
+.forecast-card {
+    background-color: #f8f0f0;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    min-height: 150px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Define los estilos para las imágenes dentro de las tarjetas de pronóstico */
+.forecast-card img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+}

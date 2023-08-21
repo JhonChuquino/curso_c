@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Configura el conjunto de caracteres UTF-8 para el documento -->
+    <meta charset="UTF-8"> 
+    <!-- Configura la escala inicial para dispositivos móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Aplicación del Clima</title> <!-- Establece el título de la página -->
+    <link rel="stylesheet" href="styles.css"> <!-- Enlaza la hoja de estilos CSS -->
+</head>
+<body>
+    <div class="container">
+        <h1>ClimateVision</h1> <!-- Encabezado principal de la página -->
+        <div class="input-container">
+            <input type="text" id="cityInput" placeholder="Ingrese una ciudad"> <!-- Campo de entrada para la ciudad -->
+            <button id="getWeatherBtn">Ver Clima Actual</button> <!-- Botón para obtener el clima actual -->
+            <button id="getForecastBtn">Ver Pronóstico</button> <!-- Botón para obtener el pronóstico -->
+        </div>
+        <!-- Contenedor para mostrar la información del clima actual (inicialmente oculto) -->
+        <div id="weatherInfo" style="display: none;"></div> 
+        <!-- Contenedor para mostrar el pronóstico (inicialmente vacío) -->
+        <div id="forecastContainer" class="forecast-cards"></div> 
+    </div>
+    <script src="script.js"></script> <!-- Enlace al archivo JavaScript que proporciona la funcionalidad -->
+</body>
+</html>
+
